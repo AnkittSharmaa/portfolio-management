@@ -1,0 +1,24 @@
+/* Styles for the Trades component */
+
+/* Container for the entire Trades component */
+.trades {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Fixed width for the Order Booking section */
+  .order-booking {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Scrollable Trade History section */
+  .trade-history {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+  }
+  

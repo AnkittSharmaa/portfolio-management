@@ -1,0 +1,133 @@
+/* src/pages/fundmanagement.css */
+
+.fund-manager-container {
+  padding: 20px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fund-manager-container h1, .fund-manager-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.fund-manager-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.fund-manager-table th, .fund-manager-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.fund-manager-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.fund-manager-table td {
+  background-color: #fff;
+}
+
+.fund-transaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group select, .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+  outline: none;
+}
+/* Set the layout for the overall container */
+.MuiGrid-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Fixed width for the left section (Add Fund) */
+.fixed-left {
+  width: 300px;
+  position: sticky;
+  top: 0;
+}
+
+/* Fixed width for the right section (Fund Manager) */
+.fixed-right {
+  width: 300px;
+  position: sticky;
+  top: 0;
+}
+
+/* Center section (Fund History) should be scrollable */
+.scrollable-center {
+  flex-grow: 1;
+  overflow-y: auto;
+  height: calc(100vh - 64px); /* Adjust based on your header/footer height */
+}
+
+.fund-transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 16px;
+}

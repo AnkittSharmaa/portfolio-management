@@ -1,0 +1,47 @@
+.trades {
+  width: 140%;
+}
+.my-assets {
+  width: 150%;
+}
+.asset-distribution {
+  height: 80%;
+  width: 80%;
+}
+.cashflow-chart {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bar-chart {
+  height: 100%;
+  width: 100%;
+}
+.networth-chart {
+  height: 100%;
+  width: 100%;
+}
+
+.side-bar {
+  background-color: #343a40;
+  color: #fff;
+  height: 100vh;
+  width: 250px;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.equity-wealth-distribution {
+  height: 100%;
+  width: 100%;
+}
+
+.current-holdings {
+  width: 100%;
+}
